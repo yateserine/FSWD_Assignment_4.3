@@ -1,0 +1,19 @@
+/* --Set border to article element in black solid in 1px width, set height as 100px. --*/
+article { 
+    height: 100px; 
+    position: relative;
+    border:1px solid #000000;
+}/* --  Header class created with id "top" --*/
+
+/* --• Aligned the logo to vertical middle & horizontally left position of total article space. --*/
+article img { 
+    margin: 0; 
+    position: absolute; 
+    top: 50%; 
+    transform: translate(0%, -50%); 
+}
+
+/* --  Width set for logo --*/
+.logo { 
+    width: 50px; 
+}
